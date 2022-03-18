@@ -89,6 +89,9 @@ img,video{
     color:#b33e98;
 }
 
+span.text-green{
+    font-family:'Brandon Grotesque Bold',sans-serif;
+}
 .green-line{
     height:40px;
     width:100%;

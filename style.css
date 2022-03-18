@@ -198,7 +198,7 @@ img,video{
     font-size:15px;
 }
 
-.circle-1 {
+.circle-1, .circle-3 {
     float: right;
     width: 150px;
     shape-outside: circle(29.1% at 91px 215px);
@@ -208,7 +208,7 @@ img,video{
     margin-bottom: 1rem;
 }
 
-.circle-2 {
+.circle-2 , .circle-4{
     float: left;
     width: 150px;
     shape-outside: circle(30.37% at 113px 225px);
@@ -293,8 +293,8 @@ img,video{
     .circle-1 {
         float: right;
         width: 100px;
-        shape-outside: circle(16.76% at 68px 343px);
-        margin-top: 293px;
+        shape-outside: circle(22.76% at 66px 230px);
+        margin-top: 180px;
         margin-right: 20px;
         margin-left: 1rem;
         margin-bottom: 1rem;
@@ -302,15 +302,33 @@ img,video{
     .circle-2 {
         float: left;
         width: 100px;
-        shape-outside: circle(18.4% at 71px 310px);
-        margin-top: 260px;
+        shape-outside: circle(20.4% at 70px 272px);
+        margin-top: 223px;
         margin-left: 20px;
         margin-right: 1rem;
         margin-bottom: 1em;
+    }
+    .circle-3 {
+        float: right;
+        width: 100px;
+        shape-outside: circle(21.76% at 66px 298px);
+        margin-top: 250px;
+        margin-right: 20px;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
       }
-      .overflow-auto{
-          display:block;
-          width:100%;
-          padding-top:10px;
-      }
+    .circle-4 {
+        float: left;
+        width: 100px;
+        shape-outside: circle(22.4% at 70px 250px);
+        margin-top: 200px;
+        margin-left: 20px;
+        margin-right: 1rem;
+        margin-bottom: 1em;
+    }
+    .overflow-auto{
+        display:block;
+        width:100%;
+        padding-top:10px;
+    }
 }

@@ -108,26 +108,26 @@ span.text-green{
     background: linear-gradient(180deg, rgba(179,62,152,1) 0%, rgba(255,255,255,1) 100%);
 }
 .bg-flower {
-    background-image: url(./images/bg-image-1.png);
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    background-size: 150px;
-    position: relative;
-}
-.bg-flower-2{
-    background-image:url('./images/bg-image-2.png');
+    background-image: url(./images/Part1-Bg.png);
     background-position: left bottom;
     background-repeat: no-repeat;
     background-size: contain;
     position: relative;
 }
-.absolute-flower{
+/* .bg-flower-2{
+    background-image:url('./images/bg-image-2.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+} */
+/* .absolute-flower{
     position: absolute;
     width:120px;
     right:0;
     top:100px;
     z-index: 1;
-}
+} */
 .absolute-flower-2{
     position: absolute;
     width:200px;
@@ -278,14 +278,16 @@ span.text-green{
         font-size:.9rem
     }
     .bg-flower{
-        background-size: 100px;
+        background-image:url('./images/Part1-Bg_mobile.png');
+        background-size: cover;
+        background-position: bottom center;
     }
     .bg-flower-2{
         background-size: contain;
     }
-    .absolute-flower{
+    /* .absolute-flower{
         width:80px;
-    }
+    } */
     .absolute-flower-2{
         width:200px;
     }

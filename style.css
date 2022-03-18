@@ -190,21 +190,21 @@ img,video{
     font-size:15px;
 }
 
-.circle-1{
+.circle-1 {
     float: right;
     width: 150px;
-    shape-outside: circle(31.41% at 90px 232px);
-    margin-top: 157px;
+    shape-outside: circle(29.1% at 90px 270px);
+    margin-top: 200px;
     margin-right: 40px;
     margin-left: 1rem;
-    margin-bottom:1rem;
+    margin-bottom: 1rem;
 }
 
-.circle-2{
+.circle-2 {
     float: left;
     width: 150px;
-    shape-outside: circle(32.78% at 115px 208px);
-    margin-top: 133px;
+    shape-outside: circle(32.78% at 115px 260px);
+    margin-top: 180px;
     margin-left: 40px;
     margin-right: 1rem;
     margin-bottom: 1em;

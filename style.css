@@ -262,7 +262,11 @@ span.text-green{
     text-decoration: none;
     color:#000000;
 }
-
+@media only screen and (min-width: 1000px){
+    body{
+        zoom:2;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     h2{

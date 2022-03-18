@@ -1,5 +1,4 @@
-@import url('http://fonts.cdnfonts.com/css/brandon-grotesque-medium');
-@import url('http://fonts.cdnfonts.com/css/brandon-grotesque-regular');
+
 
 html,
 body {
@@ -111,7 +110,7 @@ img,video{
     position: absolute;
     width:120px;
     right:0;
-    top:200px;
+    top:100px;
     z-index: 1;
 }
 .absolute-flower-2{

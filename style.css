@@ -266,6 +266,9 @@ span.text-green{
     body{
         zoom:2;
     }
+    .max-height-400-big{
+        height:auto !important;
+    }
 }
 
 @media only screen and (max-width: 600px) {

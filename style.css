@@ -266,8 +266,10 @@ span.text-green{
     body{
         zoom:2;
     }
-    .max-height-400-big{
-        height:500px !important;
+    @supports (zoom: 2) {
+        .max-height-400-big{
+            height:500px !important;
+        }
     }
 }
 

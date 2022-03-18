@@ -1,0 +1,308 @@
+@import url('http://fonts.cdnfonts.com/css/brandon-grotesque-medium');
+@import url('http://fonts.cdnfonts.com/css/brandon-grotesque-regular');
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    font-family:sans-serif;
+    box-sizing: border-box;
+    font-family: 'Brandon Grotesque Regular', sans-serif;
+
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Brandon Grotesque Medium', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-top:0;
+}
+
+p{
+    font-size:1em;
+    line-height:1.3em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: 0.83em;
+}
+
+h6 {
+    font-size: 0.75em;
+    font-weight: 400;
+}
+
+.fw-normal{
+    font-weight:400;
+}
+.fw-medium{
+    font-weight:500;
+}
+.fw-bold{
+    font-weight:700;
+}
+
+img,video{
+    max-width: 100%;
+}
+.icon-img{
+    max-width:50px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-white{
+    color:#ffffff;
+}
+.text-green{
+    color:#008d49;
+}
+.text-purple, .text-purple a{
+    color:#b33e98;
+}
+
+.green-line{
+    height:40px;
+    width:100%;
+    background-color:#008d49;
+}
+.bg-white{
+    background-color:#ffffff;
+}
+.bg-green{
+    background-color:#a6b74b;
+}
+.bg-purple-gradient{
+    background: rgb(179,62,152);
+    background: linear-gradient(180deg, rgba(179,62,152,1) 0%, rgba(255,255,255,1) 100%);
+}
+.bg-flower{
+    background-image:url('./images/bg-image-1.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.bg-flower-2{
+    background-image:url('./images/bg-image-2.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+}
+.absolute-flower{
+    position: absolute;
+    width:120px;
+    right:0;
+    top:100px;
+    z-index: 1;
+}
+.absolute-flower-2{
+    position: absolute;
+    width:200px;
+    right:0;
+    top:-10px;
+    z-index: 1;
+}
+.z-index-2{
+    position: relative;
+    z-index:1000;
+}
+.swt-logo-overflow{
+    position: relative;
+    margin-top: -50px;
+    text-align:center;
+}
+
+.pos-relative{
+    position: relative;
+}
+
+.mw100{
+    max-width: 100%;
+}
+.mw-700{
+    max-width:700px;
+    margin:0 auto;
+}
+.mw-600{
+    max-width:600px;
+    margin:0 auto;
+}
+.block{
+    display: block;
+}
+
+.lh25{
+    line-height:25%;
+}
+.lh50{
+    line-height:50%;
+}
+.lh75{
+    line-height:75%;
+}
+.lh100{
+    line-height:100%;
+}
+.lh125{
+    line-height:125%
+}
+.lh150{
+    line-height:150%;
+}
+.lh175{
+    line-height:175%;
+}
+.lh200{
+    line-height:200%;
+}
+
+.cta-button{
+    background-color:#b23d97;
+    padding:10px;
+    width:100%;
+    max-width:250px;
+    font-size: 1em;
+    color:#ffffff;
+    border:none;
+    border-radius:5px;
+    text-transform: uppercase;
+    font-size:15px;
+}
+
+.circle-1{
+    float: right;
+    width: 150px;
+    shape-outside: circle(31.41% at 90px 232px);
+    margin-top: 157px;
+    margin-right: 40px;
+    margin-left: 1rem;
+    margin-bottom:1rem;
+}
+
+.circle-2{
+    float: left;
+    width: 150px;
+    shape-outside: circle(32.78% at 115px 208px);
+    margin-top: 133px;
+    margin-left: 40px;
+    margin-right: 1rem;
+    margin-bottom: 1em;
+}
+
+.pictures{
+    position: relative;
+    margin-top: -50px;
+}
+
+.overflow-auto{
+    overflow:auto;
+}
+
+.buttons-wrapper{
+    justify-content:space-evenly;
+}
+
+.footer-bg{
+    background-image: url('./images/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.footer-links ul li{
+    display: inline-block;
+}
+
+.footer-links ul li:not(:last-child){
+    border-right:1px solid black;
+}
+
+.footer-links ul li {
+    text-align: center;
+    padding-right:10px;
+    padding-left:10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    h2{
+        font-size:2.4em !important;
+        font-weight:bold !important;
+        line-height:100% !important;
+    }
+    h3{
+        font-size:1.3rem;
+        font-weight:400;
+    }
+    p{
+        font-size:.9rem
+    }
+    .bg-flower{
+        background-size: 100px;
+    }
+    .bg-flower-2{
+        background-size: contain;
+    }
+    .absolute-flower{
+        width:80px;
+    }
+    .absolute-flower-2{
+        width:200px;
+    }
+    .pictures{
+        position: relative;
+        margin-top: -100px;
+    }
+    .cta-button{
+        display: block;
+        margin: 0 auto;
+        padding:10px 20px;
+    }
+    .text-center-mobile{
+        text-align: center;
+    }
+    .circle-1 {
+        float: right;
+        width: 100px;
+        shape-outside: circle(16.76% at 68px 343px);
+        margin-top: 293px;
+        margin-right: 20px;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
+    }
+    .circle-2 {
+        float: left;
+        width: 100px;
+        shape-outside: circle(18.4% at 71px 310px);
+        margin-top: 260px;
+        margin-left: 20px;
+        margin-right: 1rem;
+        margin-bottom: 1em;
+      }
+      .overflow-auto{
+          display:block;
+          width:100%;
+          padding-top:10px;
+      }
+}

@@ -245,6 +245,10 @@ span.text-green{
     background-position: center center;
 }
 
+.footer-links ul{
+   padding:0;
+}
+
 .footer-links ul li{
     display: inline-block;
 }
@@ -361,5 +365,8 @@ span.text-green{
     }
     .mobile-button-adjust{
         margin-top:-40px;
+    }
+    .footer-links ul li:not(:last-child){
+        border-right:none;
     }
 }

@@ -91,14 +91,6 @@ img,video{
 .part-3{
     position: relative;
 }
-.part-3-link {
-    position: absolute;
-    bottom: 3%;
-    left: 30%;
-    font-size: 2.5vw;
-    max-width: 700px;
-    color: #B23C97;
-}
 
 span.text-green{
     font-family:'Brandon Grotesque Bold',sans-serif;
@@ -262,6 +254,14 @@ span.text-green{
     text-decoration: none;
     color:#000000;
 }
+.part-3-link {
+    position: absolute;
+    bottom: .5%;
+    left: 42%;
+    font-size: 2.7vw;
+    color: #B23C97;
+    max-width:300px;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -359,21 +359,13 @@ span.text-green{
     .footer-links ul li:not(:last-child){
         border-right:none;
     }
-    .part-3-link {
-        bottom: .5%;
-        left: 42%;
-        font-size: 2.7vw;
-        max-width: 240px;
-    }
-}
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
 
 }
+
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
     .bg-flower{
         background-image: url('./images/Part1-Bg_mobile.png');
         background-size:cover;
@@ -383,6 +375,14 @@ span.text-green{
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
 
+    .part-3-link {
+        position: absolute;
+        bottom: 3%;
+        left: 30%;
+        font-size: 2.5vw;
+        max-width: 700px;
+        color: #B23C97;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */

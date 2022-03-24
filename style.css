@@ -260,7 +260,7 @@ span.text-green{
     left: 42%;
     font-size: 2.7vw;
     color: #B23C97;
-    max-width:300px;
+    padding-right:10px;
 }
 
 

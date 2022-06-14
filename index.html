@@ -14,7 +14,21 @@
 </head>
 
 <body>
-    <div class="container-fluid px-0">
+    <div class="container-fluid px-0"> 
+        <div class="bg-wrapper">
+            <div class="form-wrapper container text-center d-flex flex-wrap flex-column align-items-center justify-content-center">
+                <div>
+                    <h3>Site not yet ready.</h3>
+                    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fknowyourmeme.com%2Fmemes%2Fyou-shall-not-pass&psig=AOvVaw1aK3Vb4xd58EylTo_ppMr-&ust=1648232696137000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPDpxbmv3_YCFQAAAAAdAAAAABAD" alt="" srcset="">
+                    <span class="wrong-pass" style="display:none;color:rgb(255, 83, 83);">Wrong Password</span>
+                    <form id="form-pass">
+                        <label>Enter your Password:</label>
+                        <input class="password" type="text">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
         <div class="mw-1440">
             <div>
                 <img class="block" src="./images/banner-image.png" alt="">
@@ -176,6 +190,19 @@
             </div>
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+        $(document).ready(function() {
+            $( "#form-pass" ).submit(function( event ) {
+                event.preventDefault();
+                if($('.password').val() == 'andrevenue2k22'){
+                    $('.bg-wrapper').fadeOut();
+                }else{
+                    alert('Wrong Password');
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>
